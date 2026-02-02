@@ -60,7 +60,7 @@ end as customer_segment,
 count(*) as Number_of_customers
 FROM public.customer
 GROUP BY 1
-ORDER BY total_count DESC;
+ORDER BY Number_of_customers DESC;
 
 
 --Q8. What are the top 3 most purchased products within each category? 
